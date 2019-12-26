@@ -12,7 +12,7 @@ app = Flask(__name__)
 def urlaggregator():
     url1 = "http://www.apnapaisa.com/personal-loan/interest-rates"
     url2 = "https://www.paisabazaar.com/personal-loan/"
-    url3 =  "https://indialends.com/personal-loan/"
+    url3 =  "https://indialends.com/personal-loan"
     response1 = requests.get(url1)
     response2 = requests.get(url2)
     response3 = requests.get(url3)
